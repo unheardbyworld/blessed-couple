@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> поля + даня = <3 </title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<section class="intro-screen" id="introScreen">
+		<button class="intro-click" id="startBtn" type="button">click</button>
+	</section>
+
+	<main class="experience" id="experience">
+	<div class="glow"></div>
+
+	<div class="scene">
+		<div class="cat left">
+			<p>котек 1</p>
+			<div class="frame"><img src="images/cat1.jpg" alt="котек 1" /></div>
+		</div>
+		<div class="cat right">
+			<p>котек 2</p>
+			<div class="frame"><img src="images/cat2.jpg" alt="котек 2" /></div>
+		</div>
+	</div>
+
+	<div class="final">
+		<div class="photo-stage">
+			<div class="photo-wrap">
+				<button class="back-photo-button back-photo-button--left" type="button" aria-label="Открыть фотографию 1">
+					<img class="back-photo" src="images/photo1.jpg" alt="Фотография 1" />
+				</button>
+				<button class="back-photo-button back-photo-button--right" type="button" aria-label="Открыть фотографию 2">
+					<img class="back-photo" src="images/photo2.jpg" alt="Фотография 2" />
+				</button>
+				<img class="main-photo" src="images/together.jpg" alt="2 котека вместе" />
+			</div>
+			<button class="photo-nav photo-nav--left" id="previousPhoto" type="button" aria-label="Предыдущая фотография">&#8592;</button>
+			<button class="photo-nav photo-nav--right" id="nextPhoto" type="button" aria-label="Следующая фотография">&#8594;</button>
+		</div>
+		<p class="title"><span class="title-text" id="titleText">2 котека вместе</span> <span>❤️</span></p>
+	</div>
+
+	<button class="btn" id="mergeBtn" type="button">
+		<span id="btnText">соединить</span>
+	</button>
+	</main>
+
+	<script src="script.js" defer></script>
+</body>
+</html>
